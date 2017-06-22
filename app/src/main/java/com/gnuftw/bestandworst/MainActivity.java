@@ -1,6 +1,8 @@
 package com.gnuftw.bestandworst;
 
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -20,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
         // Add toolbar to activity.
         Toolbar actionToolbar = (Toolbar) findViewById(R.id.bw_toolbar);
         setSupportActionBar(actionToolbar);
+
+        // Create new HomeFragment to be placed in the activity layout.
+        HomeFragment homeFragment = new HomeFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, homeFragment).commit();
     }
 
     // onStart() contains code for maintaining the UI.
@@ -60,7 +66,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // onRestoreInstanceState() recreates instance state after configuration changes such as portrait to landscape orientation.
-    // Configuration changes can be handled here or the system can restore the activity & recreate it with new dimensions.
+    // Configuration changes can be handled here or t
+    // he system can restore the activity & recreate it with new dimensions.
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
@@ -85,17 +92,27 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem menuItem) {
         switch (menuItem.getItemId()) {
-            case R.id.action_bar_view_history:
-                //showHistory();
+            case R.id.action_bar_calendar:
+                CalendarFragment calendarFragment = new CalendarFragment();
+                replaceFragment(calendarFragment);
                 return true;
             case R.id.options_settings:
-                //showSettings();
+                SettingsFragment settingsFragment = new SettingsFragment();
+                replaceFragment(settingsFragment);
                 return true;
             case R.id.options_about:
-                //showAbout();
+                AboutFragment aboutFragment = new AboutFragment();
+                replaceFragment(aboutFragment);
                 return true;
             default:
                 return super.onOptionsItemSelected(menuItem);
         }
+    }
+
+    private void replaceFragment(Fragment fragment) {
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.fragment_container, fragment); // Replace whatever is in fragment_container with a settings fragment.
+        fragmentTransaction.addToBackStack(null);                       // Add transaction to back stack for backwards user navigation.
+        fragmentTransaction.commit();                                   // Commit transaction.
     }
 }
