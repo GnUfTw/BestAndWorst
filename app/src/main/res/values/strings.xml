@@ -10,8 +10,17 @@
     <string name="title_about">About</string>
 
     <!-- SettingsFragment settings -->
-    <string name="title_submit_settings">Submit</string>
+    <string name="title_settings_fragment">Set Notification Time Below</string>
+    <string name="title_save_settings_button">Save</string>
+
+    <!-- CalendarFragment settings -->
+    <string name="title_selected_date_best">Best</string>
+    <string name="title_selected_date_worst">Worst</string>
 
     <!-- AboutFragment strings -->
     <string name="about_text">BestAndWorst is an application that is released under the GPL-3.0 license.</string>
+
+    <!-- Saved data strings -->
+    <string name="data_hour">hour</string>
+    <string name="data_minute">minute</string>
 </resources>
