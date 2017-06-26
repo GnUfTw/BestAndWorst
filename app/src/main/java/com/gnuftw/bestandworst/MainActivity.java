@@ -96,6 +96,10 @@ public class MainActivity extends AppCompatActivity {
                 CalendarFragment calendarFragment = new CalendarFragment();
                 replaceFragment(calendarFragment);
                 return true;
+            case R.id.action_bar_history:
+                HistoryFragment historyFragment = new HistoryFragment();
+                replaceFragment(historyFragment);
+                return true;
             case R.id.options_settings:
                 SettingsFragment settingsFragment = new SettingsFragment();
                 replaceFragment(settingsFragment);

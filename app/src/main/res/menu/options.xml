@@ -5,7 +5,12 @@
         android:id="@+id/action_bar_calendar"
         android:icon="@drawable/ic_tab_calendar"
         android:title="Calendar"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_bar_history"
+        android:icon="@drawable/ic_tab_history"
+        android:title="History"
+        app:showAsAction="always" />
     <item
         android:id="@+id/options_settings"
         android:title="@string/title_settings"
