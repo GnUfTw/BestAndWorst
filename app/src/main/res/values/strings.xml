@@ -3,9 +3,8 @@
     <string name="title_activity_main2">MainActivity</string>
 
     <!-- App bar button titles -->
-    <string name="title_home">Home</string>
-    <string name="title_add">Add</string>
     <string name="title_calendar">Calendar</string>
+    <string name="title_history">History</string>
     <string name="title_settings">Settings</string>
     <string name="title_about">About</string>
 
@@ -13,14 +12,14 @@
     <string name="title_settings_fragment">Set Notification Time Below</string>
     <string name="title_save_settings_button">Save</string>
 
-    <!-- CalendarFragment settings -->
-    <string name="title_selected_date_best">Best</string>
-    <string name="title_selected_date_worst">Worst</string>
-
     <!-- AboutFragment strings -->
     <string name="about_text">BestAndWorst is an application that is released under the GPL-3.0 license.</string>
 
     <!-- Saved data strings -->
     <string name="data_hour">hour</string>
     <string name="data_minute">minute</string>
+
+    <!-- Placeholder text -->
+    <string name="home_blank_fragment">Home blank fragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

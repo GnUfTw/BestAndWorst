@@ -4,12 +4,12 @@
     <item
         android:id="@+id/action_bar_calendar"
         android:icon="@drawable/ic_tab_calendar"
-        android:title="Calendar"
+        android:title="@string/title_calendar"
         app:showAsAction="always" />
     <item
         android:id="@+id/action_bar_history"
         android:icon="@drawable/ic_tab_history"
-        android:title="History"
+        android:title="@string/title_history"
         app:showAsAction="always" />
     <item
         android:id="@+id/options_settings"

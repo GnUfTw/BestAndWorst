@@ -30,6 +30,6 @@ public class SettingsFragment extends Fragment {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putInt(getString(R.string.data_hour), hr);
         editor.putInt(getString(R.string.data_minute), min);
-        editor.commit();
+        editor.apply();
     }
 }
