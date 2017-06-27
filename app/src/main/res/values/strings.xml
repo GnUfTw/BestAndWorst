@@ -8,7 +8,16 @@
     <string name="title_settings">Settings</string>
     <string name="title_about">About</string>
 
-    <!-- SettingsFragment settings -->
+    <!-- HomeFragment strings -->
+    <string name="title_add">+</string>
+
+    <!-- AddEntryDialogFragment strings -->
+    <string name="title_dialog">AddEntry</string>
+    <string name="dialog_text">Best and Worst part of your day?</string>
+    <string name="title_save_entry_button">Save</string>
+    <string name="title_cancel_entry_button">Cancel</string>
+
+    <!-- SettingsFragment strings -->
     <string name="title_settings_fragment">Set Notification Time Below</string>
     <string name="title_save_settings_button">Save</string>
 
@@ -20,7 +29,7 @@
     <string name="data_minute">minute</string>
 
     <!-- Placeholder text -->
-    <string name="home_blank_fragment">Home blank fragment</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="calendar_blank_fragment">Calendar blank fragment</string>
+    <string name="dialog_blank_fragment">Dialog blank fragment</string>
 </resources>
