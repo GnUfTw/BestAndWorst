@@ -22,4 +22,5 @@
     <!-- Placeholder text -->
     <string name="home_blank_fragment">Home blank fragment</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="calendar_blank_fragment">Calendar blank fragment</string>
 </resources>
