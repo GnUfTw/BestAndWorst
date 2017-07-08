@@ -13,7 +13,9 @@
 
     <!-- AddEntryDialogFragment strings -->
     <string name="title_dialog">AddEntry</string>
-    <string name="dialog_text">Best and Worst part of your day?</string>
+    <string name="dialog_text">Add An Entry For Today</string>
+    <string name="dialog_best_hint">Best part...</string>
+    <string name="dialog_worst_hint">Worst part...</string>
     <string name="title_save_entry_button">Save</string>
     <string name="title_cancel_entry_button">Cancel</string>
 
