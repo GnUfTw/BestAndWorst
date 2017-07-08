@@ -10,7 +10,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
-
     // onCreate() contains basic application startup logic that happens 1x in entire life of activity.
     // It should be noted that the Bundle argument needs to be checked for null before reading it. Or implement a onRestoreInstanceState() function.
     // If it is null, then the system is creating a new activity instance otherwise it was restored.
