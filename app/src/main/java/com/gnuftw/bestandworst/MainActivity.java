@@ -91,10 +91,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem menuItem) {
         switch (menuItem.getItemId()) {
-            case R.id.action_bar_calendar:
+            /*case R.id.action_bar_calendar:
                 CalendarFragment calendarFragment = new CalendarFragment();
                 replaceFragment(calendarFragment);
-                return true;
+                return true;*/
             case R.id.action_bar_history:
                 HistoryFragment historyFragment = new HistoryFragment();
                 replaceFragment(historyFragment);
