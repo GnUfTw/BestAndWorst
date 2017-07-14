@@ -7,16 +7,22 @@
 
     <EditText
         android:id="@+id/bestEntry"
-        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLines="4"
+        android:maxLength="120"
+        android:scrollHorizontally="false"
         android:hint="@string/dialog_best_hint" />
 
     <EditText
         android:id="@+id/worstEntry"
-        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLines="4"
+        android:maxLength="120"
+        android:scrollHorizontally="false"
         android:hint="@string/dialog_worst_hint" />
 
 </LinearLayout>
