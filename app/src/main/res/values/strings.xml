@@ -24,7 +24,9 @@
     <string name="title_save_settings_button">Save</string>
 
     <!-- AboutFragment strings -->
-    <string name="about_text">BestAndWorst is an application that is released under the GPL-3.0 license.</string>
+    <string name="about_text">BestAndWorst is released under the GPL-3.0 license</string>
+    <string name="about_email">maxpung@protonmail.com</string>
+    <string name="about_github_link">https://github.com/GnUfTw/BestAndWorst</string>
 
     <!-- Saved data strings -->
     <string name="data_hour">hour</string>
