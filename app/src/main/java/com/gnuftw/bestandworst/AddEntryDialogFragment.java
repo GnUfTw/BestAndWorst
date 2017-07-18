@@ -151,7 +151,9 @@ public class AddEntryDialogFragment extends DialogFragment {
 
         // Since cursor starts at position -1, place the read position on the first entry in the results.
         if (cursor.moveToNext() == false) {
+            // Then there are no entries in the database yet.
             Log.d("AddEntryDialogFragment", "moveToNext() failed in isThereAnEntryForTodayAlready()");
+            return false;
         }
 
         String mostRecentDateInDb = null;
