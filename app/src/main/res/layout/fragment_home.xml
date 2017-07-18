@@ -14,7 +14,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:scaleType="fitXY"
-        android:src="@drawable/bwlogo"
+        android:src="@drawable/bw_512x512"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

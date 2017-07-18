@@ -2,12 +2,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context="com.gnuftw.bestandworst.HistoryFragment">
 
     <ListView
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:divider="@android:color/black"
+        android:dividerHeight="@dimen/history_fragment_divider_margin"
         android:drawSelectorOnTop="false" />
 
 </LinearLayout>

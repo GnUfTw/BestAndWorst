@@ -95,14 +95,18 @@ public class MainActivity extends AppCompatActivity {
                 CalendarFragment calendarFragment = new CalendarFragment();
                 replaceFragment(calendarFragment);
                 return true;*/
+            case R.id.action_bar_home:
+                HomeFragment homeFragment = new HomeFragment();
+                replaceFragment(homeFragment);
+                return true;
             case R.id.action_bar_history:
                 HistoryFragment historyFragment = new HistoryFragment();
                 replaceFragment(historyFragment);
                 return true;
-            case R.id.options_settings:
+            /*case R.id.options_settings:
                 SettingsFragment settingsFragment = new SettingsFragment();
                 replaceFragment(settingsFragment);
-                return true;
+                return true;*/
             case R.id.options_about:
                 AboutFragment aboutFragment = new AboutFragment();
                 replaceFragment(aboutFragment);

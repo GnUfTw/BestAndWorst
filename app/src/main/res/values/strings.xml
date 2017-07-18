@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">BestAndWorst</string>
-    <string name="title_activity_main2">MainActivity</string>
+    <string name="app_name">Best &amp; Worst</string>
 
     <!-- App bar button titles -->
     <string name="title_calendar">Calendar</string>
@@ -24,7 +23,7 @@
     <string name="title_save_settings_button">Save</string>
 
     <!-- AboutFragment strings -->
-    <string name="about_text">BestAndWorst is released under the GPL-3.0 license</string>
+    <string name="about_text">B&amp;W is distributed under the GPL-3.0 license</string>
     <string name="about_email">maxpung@protonmail.com</string>
     <string name="about_github_link">https://github.com/GnUfTw/BestAndWorst</string>
 
